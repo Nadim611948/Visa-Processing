@@ -77,7 +77,7 @@ function Header() {
 
       {/* Right Side */}
       <div className="navbar-end">
-        <NavLink to="/apply">
+        <NavLink to="/applicationForm">
          <button
         className="relative inline-block px-6 py-2 font-semibold text-black border-2 border-black rounded-md
                    overflow-hidden transition-colors duration-300
