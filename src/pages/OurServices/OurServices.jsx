@@ -1,6 +1,7 @@
 import React from "react";
 import Countries from "./Counteries";
 import { Link } from "react-router-dom";
+import Requirements from "./Requirements";
 
 const OurServices = () => {
   return (
@@ -124,6 +125,8 @@ const OurServices = () => {
           </div>
         </div>
       </section>
+
+      <Requirements/>
     </div>
   );
 };
