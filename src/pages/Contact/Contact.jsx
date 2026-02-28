@@ -24,7 +24,7 @@ const ContactPage = () => {
 
         <div className="grid lg:grid-cols-2 gap-16 items-start">
           {/* LEFT SIDE */}
-          <div className="mt-16 ml-10 space-y-10">
+          <div className="lg:mt-16 mt-6 lg:ml-10 lg:space-y-10 space-y-2">
 
             {/* Address Card */}
             <div className="flex items-start gap-5 bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition duration-300">

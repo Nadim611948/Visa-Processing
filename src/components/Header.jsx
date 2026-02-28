@@ -54,7 +54,7 @@ function Header() {
 
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-white rounded-xl z-10 mt-3 w-52 p-3 shadow-lg">
+            className="menu menu-sm dropdown-content bg-white rounded-xl  mt-3 w-52 p-3 shadow-lg">
             {Links}
           </ul>
         </div>
@@ -62,7 +62,7 @@ function Header() {
         {/* Logo */}
         <div className="flex items-center gap-2">
           <FaPassport className="text-3xl text-[#8494FF]" />
-          <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+          <span className="lg:block hidden text-2xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
             VisaProcessing
           </span>
         </div>
