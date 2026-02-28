@@ -7,7 +7,7 @@ function Header() {
   const navLinkClass = ({ isActive }) =>
     `px-4 py-2 rounded-lg transition-all duration-300 font-medium ${
       isActive
-        ? "text-white bg-blue-600"
+        ? "text-white bg-black"
         : "text-gray-700 hover:text-blue-600 hover:bg-blue-50"
     }`;
 
@@ -78,9 +78,15 @@ function Header() {
       {/* Right Side */}
       <div className="navbar-end">
         <NavLink to="/apply">
-          <button className="btn bg-[#8494FF] hover:bg-[#5567da]  text-white rounded-xl px-6 border-none">
-            Apply Now
-          </button>
+         <button
+        className="relative inline-block px-6 py-2 font-semibold text-black border-2 border-black rounded-md
+                   overflow-hidden transition-colors duration-300
+                   before:absolute before:inset-0 before:bg-black before:scale-y-0 before:origin-bottom
+                   before:transition-transform before:duration-300 hover:before:scale-y-100
+                   hover:text-white z-10 text-lg md:text-xl hover: cursor-pointer"
+      >
+        <span className="relative z-20">Apply for Visa</span>
+      </button>
         </NavLink>
       </div>
     </div>
