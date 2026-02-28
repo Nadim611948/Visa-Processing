@@ -69,13 +69,13 @@ const ContactPage = () => {
             <div>
               <h3 className="font-semibold text-lg mb-4">Follow Us</h3>
               <div className="flex gap-4">
-                <a className="bg-white shadow-md p-3 rounded-full hover:bg-primary hover:text-white transition duration-300">
+                <a className="bg-white shadow-md p-3 rounded-full hover:bg-primary hover:text-white transition duration-300 hover: cursor-pointer">
                   <FaFacebookF />
                 </a>
-                <a className="bg-white shadow-md p-3 rounded-full hover:bg-primary hover:text-white transition duration-300">
+                <a className="bg-white shadow-md p-3 rounded-full hover:bg-primary hover:text-white transition duration-300 hover: cursor-pointer">
                   <FaTwitter />
                 </a>
-                <a className="bg-white shadow-md p-3 rounded-full hover:bg-primary hover:text-white transition duration-300">
+                <a className="bg-white shadow-md p-3 rounded-full hover:bg-primary hover:text-white transition duration-300 hover: cursor-pointer">
                   <FaInstagram />
                 </a>
               </div>
