@@ -22,6 +22,13 @@ const services = [
     description:
       "Plan your perfect trip abroad with confidence. We provide complete guidance and hassle-free processing for tourist visas to multiple countries.",
   },
+  {
+    id: 4,
+    title: "Work Permit",
+    image: "https://i.ibb.co.com/F4jqrGt4/male-engineer-sitting-workplace-with-architectural-plan-table.jpg",
+    description:
+      "Expert support for overseas employment visas including employer sponsorship, documentation, and embassy submission.",
+  },
 ];
 
 const Services = () => {
@@ -56,7 +63,7 @@ const Services = () => {
              overflow-hidden transition-colors duration-300
              before:absolute before:inset-0 before:bg-black before:scale-y-0 before:origin-bottom 
              before:transition-transform before:duration-300 hover:before:scale-y-100 
-             hover:text-white z-10"
+             hover:text-white z-10 hover:cursor-pointer"
 >
   <span className="relative z-20">Read More</span>
 </button>

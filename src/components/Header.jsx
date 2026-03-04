@@ -76,16 +76,27 @@ function Header() {
       </div>
 
       {/* Right Side */}
-      <div className="navbar-end">
+      <div className="navbar-end  gap-x-2">
         <NavLink to="/applicationForm">
          <button
-        className="relative inline-block px-6 py-2 font-semibold text-black border-2 border-black rounded-md
+        className="relative inline-block px-3 py-2 font-semibold text-black border-2 border-black rounded-md
                    overflow-hidden transition-colors duration-300
                    before:absolute before:inset-0 before:bg-black before:scale-y-0 before:origin-bottom
                    before:transition-transform before:duration-300 hover:before:scale-y-100
-                   hover:text-white z-10 text-lg md:text-xl hover: cursor-pointer"
+                   hover:text-white z-10 lg:text-lg md:text-xl text-[10px] hover: cursor-pointer"
       >
         <span className="relative z-20">Apply for Visa</span>
+      </button>
+        </NavLink>
+        <NavLink to="/checkInfo">
+         <button
+        className="relative inline-block px-3 py-2 font-semibold text-black border-2 border-black rounded-md
+                   overflow-hidden transition-colors duration-300
+                   before:absolute before:inset-0 before:bg-black before:scale-y-0 before:origin-bottom
+                   before:transition-transform before:duration-300 hover:before:scale-y-100
+                   hover:text-white z-10 lg:text-lg  text-[10px] hover: cursor-pointer"
+      >
+        <span className="relative z-20">Check Info</span>
       </button>
         </NavLink>
       </div>

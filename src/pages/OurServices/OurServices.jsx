@@ -122,6 +122,26 @@ const OurServices = () => {
                 Learn More
               </button>
             </div>
+
+             {/* Work Permit Visa */}
+          <div className="bg-white rounded-xl shadow-md hover:shadow-xl transition duration-300 p-6">
+            <img
+              src="https://i.ibb.co.com/F4jqrGt4/male-engineer-sitting-workplace-with-architectural-plan-table.jpg"
+              alt="Work Permit Visa"
+              className="w-full h-48 object-cover rounded-md mb-5"
+            />
+            <h3 className="text-xl font-semibold mb-3">Work Permit Visa</h3>
+            <p className="text-gray-600 text-sm mb-5">
+              Expert support for overseas employment visas including employer
+              sponsorship, documentation, and embassy submission.
+            </p>
+            <Link to="/work-permit-visa">
+              <button className="px-5 py-2 border-2 border-black text-black rounded-md
+                                 hover:bg-black hover:text-white hover:cursor-pointer transition duration-300">
+                Read More
+              </button>
+            </Link>
+          </div>
           </div>
         </div>
       </section>

@@ -19,7 +19,7 @@ const countries = [
   {
     id: 4,
     name: "Australia",
-    image: "https://i.ibb.co.com/qYtJyGhm/beautiful-shot-lotus-temple-delhi-india-cloudy-sky.jpg",
+    image: "https://i.ibb.co.com/dsCSnx6Y/flag-australia.jpg",
   },
   {
     id: 5,
@@ -29,7 +29,7 @@ const countries = [
   {
     id: 6,
     name: "Malaysia",
-    image: "https://i.ibb.co.com/Ldvd5KRv/cityscape-singapore-city-skyline.jpg",
+    image: "https://i.ibb.co.com/DgKnh0v7/closeup-shot-waving-flag-malaysia-with-interesting-textures.jpg",
   },
 ];
 

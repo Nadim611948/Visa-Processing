@@ -64,19 +64,19 @@ Visa Processing
             Contact Info
           </h3>
           <ul className="space-y-2 text-sm">
-            <li>Dhaka, Bangladesh</li>
-            <li>Email: info@globalvisa.com</li>
-            <li>Phone: +880 1234 567890</li>
+            <li>RTS Company Melbourne Australia</li>
+            <li>Phone: +61480832625 (imo)</li>
+            <li>
+              PLC Construction Company Canada
+            </li>
+            <li>Phone: +18254639191 (imo)</li>
+            <li>Email: info@gamil.com</li>
             <li>Office Hours: Sat - Thu (9:00 AM - 6:00 PM)</li>
           </ul>
         </div>
       </div>
 
-      {/* Bottom Section */}
-      <div className="border-t border-gray-700 mt-12 pt-6 text-center text-sm text-gray-400">
-        © {new Date().getFullYear()} Global Visa Processing. All Rights Reserved. <br />
-        Designed & Developed by <span className="text-white font-semibold">Nadim Mostofa</span>
-      </div>
+    
     </footer>
   );
 };

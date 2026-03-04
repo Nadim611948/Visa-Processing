@@ -7,6 +7,7 @@ const VisaApplicationForm = () => {
     fatherName: "",
     motherName: "",
     address: "",
+    birth: "",
     passportNumber: "",
     email: "",
     gender: "",
@@ -93,6 +94,19 @@ const VisaApplicationForm = () => {
             </div>
           </div>
 
+           {/* Date of Birth */}
+          <div>
+            <label className="block mb-2 font-medium">Date of Birth</label>
+            <input
+              type="date"
+              name="address"
+              value={formData.birth}
+              onChange={handleChange}
+              className="border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-primary"
+              required
+            />
+          </div>
+
           {/* Address */}
           <div>
             <label className="block mb-2 font-medium">Address</label>
@@ -173,37 +187,7 @@ const VisaApplicationForm = () => {
             </div>
           </div>
 
-          {/* Payment Method & Transaction ID */}
-          <div className="grid md:grid-cols-2 gap-6">
-            <div>
-              <label className="block mb-2 font-medium">Payment Method</label>
-              <select
-                name="paymentMethod"
-                value={formData.paymentMethod}
-                onChange={handleChange}
-                className="border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-primary"
-                required
-              >
-                <option value="">Select Payment Method</option>
-                <option value="Credit Card">Credit Card</option>
-                <option value="Mobile Banking">Mobile Banking</option>
-                <option value="Bank Transfer">Bank Transfer</option>
-              </select>
-            </div>
-
-            <div>
-              <label className="block mb-2 font-medium">Transaction ID</label>
-              <input
-                type="text"
-                name="transactionId"
-                value={formData.transactionId}
-                onChange={handleChange}
-                placeholder="Enter Transaction ID"
-                className="border border-gray-300 rounded-md p-3 w-full focus:outline-none focus:ring-2 focus:ring-primary"
-                required
-              />
-            </div>
-          </div>
+          
 
           {/* Submit Button */}
           <div className="pt-4">
