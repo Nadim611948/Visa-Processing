@@ -1,5 +1,6 @@
 import React from "react";
 import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -8,9 +9,7 @@ const Footer = () => {
         
         {/* Company Info */}
         <div>
-          <h2 className="text-2xl font-bold text-white mb-4">
-Visa Processing
-          </h2>
+          <Link to={"/"}>  <img className="w-18 h-18 rounded-[50%] " src="https://i.ibb.co.com/BVdY7fWN/Whats-App-Image-2026-03-08-at-7-31-50-PM.jpg"></img></Link>
           <p className="text-sm leading-6 mb-4">
             Trusted and government-certified visa processing agency providing
             reliable student, tourist, and business visa solutions worldwide.

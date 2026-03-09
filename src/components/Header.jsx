@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { FaPassport } from "react-icons/fa";
 
 function Header() {
@@ -61,10 +61,7 @@ function Header() {
 
         {/* Logo */}
         <div className="flex items-center gap-2">
-          <FaPassport className="text-3xl text-[#8494FF]" />
-          <span className="lg:block hidden text-2xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-            VisaProcessing
-          </span>
+        <Link to={"/"}>  <img className="w-18 h-18 rounded-[50%] " src="https://i.ibb.co.com/BVdY7fWN/Whats-App-Image-2026-03-08-at-7-31-50-PM.jpg"></img></Link>
         </div>
       </div>
 

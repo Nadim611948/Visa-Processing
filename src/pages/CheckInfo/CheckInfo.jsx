@@ -12,6 +12,16 @@ const userPdfs = [
       { id: 4, label: "Application Latter", path: "/public/APPLICATION  LETTER ( MD MEZANUR RAHAMAN).pdf"}
     ]
   },
+  { 
+    password: "A20500760", 
+    name: "MD Joynal ",
+    docs: [
+      { id: 1, label: "Australia LMI", path: "/MD JOYNAL AUSTRALIA LMI.pdf" },
+      { id: 2, label: "Job Letter", path: "/Australia job offer letter md joynal.pdf" },
+      { id: 3, label: "Work Permit", path: "/MD JOYNAL Australia work permity-3 kaz ok.pdf" },
+      { id: 4, label: "Application Latter", path: "/APPLICATION  LETTER ( MD JOYNAL ).pdf"}
+    ]
+  },
   // Add 4 more user objects here following the same structure
 ];
 
@@ -71,9 +81,14 @@ const CheckInfo = () => {
           <div className="p-8">
             {/* Header */}
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-10 gap-4">
-              <div>
-                <h2 className="text-sm font-bold text-blue-600 uppercase tracking-widest">Welcome Back</h2>
+              <div className="flex gap-4">
+                <div>
+                  <img className="w-20 h-22 rounded-[50%] border border-b-amber-100" src="https://i.ibb.co.com/pvQXYj8p/Whats-App-Image-2026-03-08-at-9-53-17-PM.jpg" alt="" />
+                </div>
+               <div className="mt-6">
+                 <h2 className="text-sm font-bold text-blue-600 uppercase tracking-widest">Welcome Back</h2>
                 <h1 className="text-3xl font-black text-slate-800">{activeUser.name}</h1>
+               </div>
               </div>
               <button
                 onClick={handleLogout}
