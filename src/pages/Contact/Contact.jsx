@@ -34,7 +34,8 @@ const ContactPage = () => {
               <div>
                 <h3 className="font-semibold text-lg mb-1">Office Address</h3>
                 <p className="text-gray-600">
-                  123 Visa Plaza, Gulshan, Dhaka, Bangladesh
+                  RTS Company Melbourne Australia
+
                 </p>
               </div>
             </div>

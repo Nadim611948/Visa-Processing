@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Banner() {
   return (
@@ -29,9 +30,9 @@ function Banner() {
           </p>
 
           <div className="flex flex-col md:flex-row justify-center gap-4">
-            <button className="btn btn-primary px-8">
+            <Link to={"/applicationForm"} className="btn btn-primary px-8">
               Apply Now
-            </button>
+            </Link>
 
             <button className="btn btn-outline btn-info px-8 text-white  hover:text-black">
               Free Consultation

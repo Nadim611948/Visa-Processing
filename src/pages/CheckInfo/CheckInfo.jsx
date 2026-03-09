@@ -31,7 +31,7 @@ const userPdfs = [
       },
     ],
   },
-  {
+   {
     password: "A20500760",
     name: "MD Joynal ",
     status: "Approved",
@@ -53,6 +53,31 @@ const userPdfs = [
         id: 4,
         label: "Application Latter",
         path: "/APPLICATION  LETTER MD JOYNAL .pdf",
+      },
+    ],
+  },
+  {
+    password: "A05156287",
+    name: "MD Saniul Ahmed",
+    status: "Approved",
+    photo:
+      "https://i.ibb.co.com/s9ss0jyP/Whats-App-Image-2026-03-09-at-8-46-07-PM.jpg",
+    docs: [
+      { id: 1, label: "Australia LMI", path: "/AUSTRALIA LMI MD SANIUL AHAMED.pdf" },
+      {
+        id: 2,
+        label: "Job Letter",
+        path: "/MD SANIUL AHAMED JOB OFFER LETAR.pdf",
+      },
+      {
+        id: 3,
+        label: "Work Permit",
+        path: "/MD SANIUL AHMED Australia work permity-3 kaz ok-1.pdf",
+      },
+      {
+        id: 4,
+        label: "Application Latter",
+        path: "/Application australia for a MD SANIUL AHMED Work 1(Provisional) Visa SALAUDDIN.pdf",
       },
     ],
   },
