@@ -34,7 +34,7 @@ const userPdfs = [
   {
     password: "A20500760",
     name: "MD Joynal ",
-    status: "Processing",
+    status: "Approved",
     photo:
       "https://i.ibb.co.com/pvQXYj8p/Whats-App-Image-2026-03-08-at-9-53-17-PM.jpg",
     docs: [
@@ -86,23 +86,10 @@ const CheckInfo = () => {
         {!activeUser ? (
           <div className="p-12 max-w-md mx-auto text-center">
             <div className="w-20 h-20 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mx-auto mb-6">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-10 w-10"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
-                />
-              </svg>
+             <img className="border border-black rounded-[50%]" src="https://i.ibb.co.com/zThSD6TV/Whats-App-Image-2026-03-09-at-8-30-57-PM.jpg"></img>
             </div>
             <h1 className="text-3xl font-extrabold text-slate-800 mb-2">
-              Secure Portal
+              RTS Company Limited
             </h1>
             <p className="text-slate-500 mb-8">
               Enter your unique credential to access your visa documents.
@@ -243,6 +230,7 @@ const CheckInfo = () => {
               
             </div>
             <div className="flex gap-6 mt-10">
+              <h3 className="text-xl font-bold mt-2">-- Processing --</h3>
                 <button className="btn btn-info">Visa</button>
                 <button className="btn btn-primary">Plain Ticket</button>
               </div>

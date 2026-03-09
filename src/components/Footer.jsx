@@ -9,7 +9,7 @@ const Footer = () => {
         
         {/* Company Info */}
         <div>
-          <Link to={"/"}>  <img className="w-18 h-18 rounded-[50%] " src="https://i.ibb.co.com/BVdY7fWN/Whats-App-Image-2026-03-08-at-7-31-50-PM.jpg"></img></Link>
+          <Link to={"/"}>  <img className="w-18 h-18 rounded-[50%] " src="https://i.ibb.co.com/zThSD6TV/Whats-App-Image-2026-03-09-at-8-30-57-PM.jpg"></img></Link>
           <p className="text-sm leading-6 mb-4">
             Trusted and government-certified visa processing agency providing
             reliable student, tourist, and business visa solutions worldwide.
